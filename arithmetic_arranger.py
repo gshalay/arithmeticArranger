@@ -150,24 +150,3 @@ def format_equations_string(equations: list, show_solutions: bool):
 
 def get_longest_operand_len(eq: Equation):
     return max(len(eq.operand1), len(eq.operand2))
-
-
-# print(arithmetic_arranger(['3801 - 2', '123 + 49']))
-# print()
-# print(arithmetic_arranger(['1 + 2', '1 - 9380']))
-# print()
-# print(arithmetic_arranger(['3 + 855', '3801 - 2', '45 + 43', '123 + 49']))
-# print()
-# print(arithmetic_arranger(['11 + 4', '3801 - 2999', '1 + 2', '123 + 49', '1 - 9380']))
-# print()
-# print(arithmetic_arranger(['44 + 815', '909 - 2', '45 + 43', '123 + 49', '888 + 40', '653 + 87']))
-# print()
-# print(arithmetic_arranger(['3 / 855', '3801 - 2', '45 + 43', '123 + 49']))
-# print()
-print(arithmetic_arranger(['24 + 85215', '3801 - 2', '45 + 43', '123 + 49']))
-# print()
-# print(arithmetic_arranger(['98 + 3g5', '3801 - 2', '45 + 43', '123 + 49']))
-# print()
-# print(arithmetic_arranger(['3 + 855', '988 + 40'], True))
-# print()
-# print(arithmetic_arranger(['32 - 698', '1 - 3801', '45 + 43', '123 + 49', '988 + 40'], True))
