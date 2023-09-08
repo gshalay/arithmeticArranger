@@ -1,4 +1,3 @@
 { pkgs }: {
-  deps = [
-  ];
+  deps = [ pkgs.python38Packages.pytest ];
 }
